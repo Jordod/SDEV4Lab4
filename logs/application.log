@@ -1,0 +1,28 @@
+2018-03-05 13:31:14,129 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-33 - Creating Pool for datasource 'default'
+2018-03-05 13:31:14,467 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-33 - Database [default] connected at jdbc:h2:file:./data/productsDB
+2018-03-05 13:31:16,472 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-33 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-03-05 13:31:16,693 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-33 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-03-05 13:31:16,705 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-33 - Application started (Dev)
+2018-03-05 13:31:16,952 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2018-03-05 13:31:16,955 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2018-03-05 13:31:17,218 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2018-03-05 13:31:17,219 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2018-03-05 13:31:17,852 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2018-03-05 13:31:17,853 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2018-03-05 13:31:18,122 [WARN] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - decode: cookie has invalid signature! message = JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2018-03-05 13:31:18,122 [INFO] from play.api.mvc.DefaultJWTCookieDataCodec in application-akka.actor.default-dispatcher-5 - The JWT signature in the cookie does not match the locally computed signature with the server.
+This usually indicates the browser has a leftover cookie from another Play application,
+so clearing cookies may resolve this error message.
+2018-03-05 13:31:54,072 [WARN] from application in application-akka.actor.default-dispatcher-4 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2018-03-05 13:31:57,556 [WARN] from application in application-akka.actor.default-dispatcher-5 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
